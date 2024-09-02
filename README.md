@@ -1,7 +1,5 @@
 - 👋 Hi, I’m @anasbaba15
-- 👀 I’m interested in AI, WEB 3.0
-- 🌱 I’m currently learning HTML
-- 💞️ I’m looking to collaborate on ...
+- i am learning cloud applied generative AI
 - 📫 How to reach me on whats app my mob number is 03132682897
 
 <!---
