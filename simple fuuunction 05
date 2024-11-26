@@ -1,0 +1,104 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOJ6OLEvEGqort4t/iCuQAr",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/anasbaba15/anasbaba15/blob/main/simple%20fuuunction%2005\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "C: int = 299792458\n",
+        "\n",
+        "def main():\n",
+        "    mass_in_kg: float = float(input(\"Enter kilos of mass: \"))\n",
+        "\n",
+        "    energy_in_joules: float = mass_in_kg * (C ** 2)\n",
+        "\n",
+        "    print(\"e = m * C^2...\")\n",
+        "    print(\"m = \" + str(mass_in_kg) + \" kg\")\n",
+        "    print(\"C = \" + str(C) + \" m/s\")\n",
+        "\n",
+        "    print(str(energy_in_joules) + \" joules of energy!\")\n",
+        "\n",
+        "\n",
+        "if __name__ == '__main__':\n",
+        "    main()"
+      ],
+      "metadata": {
+        "id": "rMJncZCTYVf7",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "2b675861-98d3-401e-cab2-6b9bdd994f42"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter kilos of mass: 50\n",
+            "e = m * C^2...\n",
+            "m = 50.0 kg\n",
+            "C = 299792458 m/s\n",
+            "4.493775893684088e+18 joules of energy!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import random\n",
+        "\n",
+        "def main():\n",
+        "\n",
+        "    value_of_text = (random.randint(1, 100))\n",
+        "\n",
+        "    print(f\"the reslt of random is {value_of_text}\")\n",
+        "\n",
+        "if __name__ == '__main__':\n",
+        "    main()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ady6vwEUXcfn",
+        "outputId": "c96a01d9-cfb3-4c0d-eda3-026236e3c30d"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the reslt of random is 44\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
